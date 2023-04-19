@@ -11,7 +11,7 @@ const Testimonio = ({imagen, nombre, cargo, pais, testimonio, empresa}) => {
         alt="img user"
       />
       <div className="contenerdor-texto-testimonio">
-        <p className="nombre-testimonio">{nombre} en {pais}</p>
+        <p className="nombre-testimonio"><strong>{nombre} en {pais}</strong></p>
         <p className="cargo-testimonio">{cargo} en {empresa}</p>
         <p className="texto-testimonio">"{testimonio}"</p>
       </div>
