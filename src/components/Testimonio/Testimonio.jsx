@@ -1,24 +1,19 @@
 import React from "react";
-import userFive from "../../images/user-05.jpg";
 import "./Testimonio.css"
 
-const Testimonio = () => {
+const Testimonio = ({imagen, nombre, cargo, pais, testimonio, empresa}) => {
+ 
   return (
     <div className="contenedor-testimonio">
       <img
         className="imagen-testimonio"
-        src={userFive}
-        alt="img user-05"
+        src={require(`../../images/user-${imagen}.jpg`)}
+        alt="img user"
       />
       <div className="contenerdor-texto-testimonio">
-        <p className="nombre-testimonio">Charlie Smith en Holanda</p>
-        <p className="cargo-testimonio">Ingeniero de Software en Spotify</p>
-        <p className="texto-testimonio">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-          laboriosam soluta? Cumque vero excepturi dolorem nostrum soluta? Saepe
-          facilis sit, aut eaque similique facere ducimus, eligendi nesciunt
-          blanditiis recusandae excepturi!
-        </p>
+        <p className="nombre-testimonio">{nombre} en {pais}</p>
+        <p className="cargo-testimonio">{cargo} en {empresa}</p>
+        <p className="texto-testimonio">"{testimonio}"</p>
       </div>
     </div>
   );
