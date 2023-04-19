@@ -10,7 +10,7 @@ export const data = [
         testimonio: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur exercitationem, cupiditate repudiandae optio perspiciatis iusto dolorum facilis ipsam! Ut dolores voluptatum amet temporibus labore assumenda non ex corrupti totam."
     },
     {
-        imagen: "06",
+        imagen: "08",
         nombre: "María Pérez",
         pais: "España",
         empresa: "Netlify",
@@ -18,7 +18,7 @@ export const data = [
         testimonio: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur exercitationem, cupiditate repudiandae optio perspiciatis iusto dolorum facilis ipsam! Ut dolores voluptatum amet temporibus labore assumenda non ex corrupti totam."
     },
     {
-        imagen: "08",
+        imagen: "06",
         nombre: "Gabriel García",
         pais: "Argentina",
         empresa: "Henry BootCamp",
